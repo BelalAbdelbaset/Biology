@@ -1,0 +1,150 @@
+:root{
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-colo: #eff7fa;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Cairo', sans-serif;
+}
+/* start navbar */
+.navbar{
+    background-color: var(--dark-color);
+    
+} 
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color:var(--green-color);
+}
+.navbar .navbar-brand{
+    color: var(--green-color);
+    font-size: 27px;
+    border-left: solid white 1px;
+    padding-left: 10px;
+}
+.up{
+    color: var(--green-color);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+
+}
+.up:hover{
+    color: var(--red-color);
+    transition:0.7s;
+}
+.navbar .navbar-brand img{
+    margin-left:20px ;
+    border-radius:30px ;
+    border:white 1px solid;
+    padding: 3px;
+}
+.navbar .navbar-toggler{
+    font-size:30px ;
+    color:var(--secondary-color) ;
+    border-color: var(--secondary-color);
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.login{
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-right:100px;
+}
+.login a{
+    margin: 10px;
+}
+.navbar .container svg{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+/* End navbar */
+/* Start Land */
+.land video{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100%;
+    border-bottom: 1px black solid;
+}
+.land .top{
+    position: fixed;
+    background-color: #521bca;
+    bottom: 10px;
+    left: 10px;
+}
+/* End land */
+/* start sec2 About Biology  */
+.about-biology{
+    background-color: #BAE8E8;
+}
+
+/*End sec2 About Biology  */
+/*Start sec3 About Biology  */
+
+
+/*End sec3 About Biology  */
+/* Start sec4 Biology Arab Scientest */
+.arab-scientist ::after{
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.arab-scientist .card img {
+    
+}
+
+/* End sec4 Biology Arab Scientest */
+/* Start Footer */
+.footer{
+    background-color:var(--dark-color);
+}
+.footer-image{
+    max-width: 50px;
+}
+.footer .copyright>span{
+    color: #53eac7;
+}
+.footer .copyright div span{
+    color: #fde300;
+}
+.footer .contact .ul svg{
+    width: 20px;
+    height: 20px;
+}
+.footer .facebook{
+    color:#1877f2 ;
+}
+.footer .twitter{
+    color:#1da1f2 ;
+}
+.footer .linkedin{
+    color: #0077b5;
+}
+.footer .youtube{
+    color:#ff0000 ;
+}
+
+/* End Footer */
